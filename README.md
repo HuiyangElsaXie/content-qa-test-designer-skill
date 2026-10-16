@@ -1,5 +1,7 @@
 # Content QA Test Designer / 内容质量测试设计
 
+先看 [虚构正反例、评分与未执行状态 / QA example](examples/fictional-qa-plan.md)。[测试计划模板](assets/qa-plan-template.md) · [Skill 入口](SKILL.md)。
+
 个人自用，持续更新。  
 For personal use. Continuously updated.
 
@@ -12,6 +14,10 @@ Use this folder as a standalone skill in an agent that supports SKILL.md, or exp
 
 优先复用用户允许使用的已有资料，记录来源，只追问关键缺口。示例全部虚构。
 Reuse permitted existing context with provenance; ask only for critical gaps. All examples are fictional.
+
+示例请求 / Request: “根据我提供的活动事实和文案草稿设计质量测试：正例、事实错误反例、可接受改写和缺失来源情况；写明评分、预期判断与实际执行状态，不调用付费模型。” / “Design factual gates, positive/negative fixtures, a valid paraphrase and missing-source behavior for my event copy; keep expected labels separate from actual results.”
+
+[VALIDATION.json](VALIDATION.json) 保留此前的结构与文件哈希快照；本次 README 导航修改未重跑或重写该历史记录。 / The earlier structural/hash snapshot is retained; these README edits do not represent a new model or execution test.
 
 ## 文件 / Files
 - [SKILL.md](SKILL.md): agent instructions / 指令入口
