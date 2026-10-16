@@ -1,0 +1,41 @@
+{
+  "status": "structural checks only; no behavioral/model testing performed",
+  "checks": {
+    "required_artifacts_present": true,
+    "license_copy_present": true
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "2ce112fa750ea9ff16914fc15cf70ef53a8ff7e67aaa8c3eb1672b8d259a8598"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "89f7f1d0860e8b8c359366bba99a865b7a6d1b2f3f6387b549ae381b96862b06"
+    },
+    {
+      "path": "ABOUT.md",
+      "sha256": "0b3d141141df6dab60c6b9e6a8050c668a1a81b217e4e8ba45310caf349a0abf"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "3b671a060b02ba0525aea3f855783f951231433ee9426b20e34a3ec0e2d963da"
+    },
+    {
+      "path": "assets/qa-plan-template.md",
+      "sha256": "7b825b25f3df3eb135c8fd9b12b415097d6da7aee32bbc1d8aea15d8f73b2d06"
+    },
+    {
+      "path": "licenses/promptfoo-MIT.txt",
+      "sha256": "bf813686553f451e1b833fbd827488aee49b60b189626915bf3108d10b754e44"
+    },
+    {
+      "path": "examples/fictional-qa-plan.md",
+      "sha256": "11c06adb732d24e06332f3a8646d1477fb9a6c2bc02f17ff8e56733c6d326b82"
+    },
+    {
+      "path": "references/upstream/promptfooconfig.yaml",
+      "sha256": "28b609c17efc7db2689f9c214b3085bf62737661c41bbb0874b909dfb6889b6a"
+    }
+  ]
+}
