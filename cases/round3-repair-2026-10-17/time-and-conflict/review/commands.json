@@ -1,0 +1,37 @@
+{
+  "record_type": "Retrospective reconstruction of actual reviewer commands; not executor commands",
+  "reviewer_identity": "r3_review_a",
+  "events": [
+    {
+      "order": 1,
+      "tool": "functions.exec -> exec_command",
+      "operation": "PowerShell Get-ChildItem -Name round3-repair and specified interpreter path",
+      "result": "exit 0; directory names only; no listed files opened",
+      "scope_note": "Inventory was broader than necessary; no prohibited file contents read."
+    },
+    {
+      "order": 2,
+      "tool": "functions.exec -> exec_command",
+      "operation": "specified Python -X utf8: read six authorized case files and SKILL.md for each of three assigned cases; list resource paths",
+      "result": "exit 0; combined output truncated in workflow portion"
+    },
+    {
+      "order": 3,
+      "tool": "functions.exec -> exec_command",
+      "operation": "specified Python -X utf8: re-read workflow raw answer and SKILL.md; read workflow template/example, competitor template, QA template",
+      "result": "exit 0; complete text returned"
+    },
+    {
+      "order": 4,
+      "tool": "functions.exec -> exec_command",
+      "operation": "specified Python -X utf8: read workflow FIRST-ANSWER.json, commands.json, tool-availability.md; SHA256 all three briefs and raw answers; compare frozen hashes",
+      "result": "exit 0; all three frozen raw hashes match"
+    },
+    {
+      "order": 5,
+      "tool": "functions.exec -> exec_command",
+      "operation": "specified Python -X utf8: write only reviews-a/<repo>/audit.md, audit.json and reconstructed commands.json for each assigned case",
+      "result": "This record is written by the current command; enclosing tool result confirms completion."
+    }
+  ]
+}

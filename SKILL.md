@@ -21,6 +21,11 @@ Reuse permitted brief/context first. Capture the draft or workflow under test, i
 
 See examples/fictional-qa-plan.md for a compact design-only example. Optional external harness integration is out of scope for this first version; no runtime dependencies or API keys are needed.
 
+## Uncertainty in expected decisions
+Treat time words such as "weekend", "soon", "now" and "still available" as factual/date or availability claims when they describe the offer, not as harmless style. Check their source and applicable date. Do not supply omitted actors, dates, quantities or terms to make a fixture complete.
+
+Do not grade against one side of an unresolved conflict. Keep both source versions and label affected fixtures Needs review until an authorized resolution identifies the standard; recency alone is not a supersession rule. Do not mark one side Reject merely for contradicting the other. Missing-source and unresolved-conflict labels remain uncertain and outside known-valid/invalid calibration denominators. In the fixture table, state the source status, why the label is uncertain and what would resolve it; do not bury this only in the ledger.
+
 ## Boundaries
 Do not optimize for defeating AI-writing, plagiarism, spam, safety or integrity detectors. Do not publish, send or alter production content. Do not expose private inputs in reusable fixtures. Approval to design tests does not authorize external execution, sharing, or spending.
 

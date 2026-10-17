@@ -1,0 +1,13 @@
+{
+  "repo": "content-qa-test-designer-skill",
+  "scenario": "time-and-conflict",
+  "configured_model": "gpt-6.1-sol",
+  "base_commit": "b6573536399509e9277abd15895f54415cafadfc",
+  "skill_entry": "SKILL.md",
+  "loaded_rule_sha256": {
+    "SKILL.md": "85ce1d9e9c62b4ea94263f57d8d003dba031c47bd579b7e71efaaa034acde812",
+    "assets/qa-plan-template.md": "10e88004d5cf9a496527732fab4d0b2500451e42a003cc0d73dd434f42294349"
+  },
+  "network_paid_accounts_business_tools": "prohibited",
+  "input_origin": "root-authored synthetic input; executor did not create the brief"
+}

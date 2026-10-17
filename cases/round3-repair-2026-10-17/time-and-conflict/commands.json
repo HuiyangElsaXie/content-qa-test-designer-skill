@@ -1,0 +1,42 @@
+{
+  "events": [
+    {
+      "event": 1,
+      "tool": "functions.exec -> tools.exec_command",
+      "operation": "read",
+      "paths": [
+        "repo/SKILL.md",
+        "case/brief.md",
+        "case/case.json"
+      ],
+      "method": "specified Python -X utf8; JSON ensure_ascii=True",
+      "outcome": "exit 0; full text returned",
+      "recording": "retrospective reconstruction of actual first call"
+    },
+    {
+      "event": 2,
+      "tool": "functions.exec -> tools.exec_command",
+      "operation": "read and SHA256",
+      "paths": [
+        "repo/assets/qa-plan-template.md",
+        "repo/SKILL.md"
+      ],
+      "method": "specified Python -X utf8; hashlib.sha256 raw bytes",
+      "outcome": "exit 0; template returned and hashes calculated",
+      "recording": "retrospective reconstruction of actual second call"
+    },
+    {
+      "event": 3,
+      "tool": "functions.exec -> tools.exec_command",
+      "operation": "write",
+      "paths": [
+        "case/raw-response.md",
+        "case/tool-availability.md",
+        "case/commands.json"
+      ],
+      "method": "specified Python -X utf8; pathlib write_text UTF-8",
+      "outcome": "writes performed in this call; shell completion reported by tool",
+      "recording": "contemporaneous; raw-response.md saved first, without self-review"
+    }
+  ]
+}

@@ -34,3 +34,5 @@ This is a usable first draft, with no measured performance claim. Examples are n
 Adapted from [promptfoo/promptfoo at 132a2d38b1b0](https://github.com/promptfoo/promptfoo/blob/132a2d38b1b0adc953b0db650f950d573bc113c4/examples/simple-test/promptfooconfig.yaml), MIT. Full license and modification details are retained in THIRD_PARTY_NOTICES.md and licenses/. No repository-wide license for original additions has been selected.
 保留上游许可与署名；尚未替用户选择新内容的仓库整体许可。
 
+
+Current targeted checks: [2026-10-17 targeted rule repairs and independent first-answer evidence](cases/round3-repair-2026-10-17/README.md). Initial partial results and later checks are reported separately. / 本轮规则修复、独立首稿及审核记录。

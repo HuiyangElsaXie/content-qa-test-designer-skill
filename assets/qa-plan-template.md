@@ -8,6 +8,9 @@ Status: design only; not executed
 - Hard factual gates:
 - Subjective criteria and 0/1/2 anchors:
 - Accept / reject / needs review rule:
+- Time/availability words checked against dated sources; absent support stays Needs review:
+- Unresolved conflicts: both versions, owner resolution needed; neither side is the grading truth:
+- Omitted actors, quantities and terms remain unknown:
 ## Cases
 | ID | Purpose | Source IDs / input | Candidate | Expected decision and reason | Checks | Status |
 |---|---|---|---|---|---|---|
